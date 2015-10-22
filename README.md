@@ -68,3 +68,24 @@
 ## Bases de datos
 * [Introducción a PDO](http://www.phpro.org/tutorials/Introduction-to-PHP-PDO.html)
 * [Referencia: PDO](http://php.net/manual/en/book.pdo.php)
+
+## Seguridad
+* [Introducción](http://www.phptherightway.com/#web_application_security)
+* [Discusión a fondo](http://phpsecurity.readthedocs.org/en/latest/index.html)
+* Funciones para filtrar datos de usuario:
+  * [htmlspecialchars](http://php.net/manual/en/function.htmlspecialchars.php)
+  * [htmlentities](http://php.net/manual/en/function.htmlentities.php)
+  * [strip_tags](http://php.net/manual/en/function.strip-tags.php)
+* [API de cifrado de contraseñas](http://www.sitepoint.com/hashing-passwords-php-5-5-password-hashing-api/)
+* [HTTPS](http://security.stackexchange.com/questions/20803/how-does-ssl-tls-work#answer-20833)
+
+## "Web features"
+* [Cookies y sesiones](http://www.hackingwithphp.com/10/0/0/cookies-and-sessions)
+* [Manejo de formularios](http://php.net/manual/en/language.variables.external.php#language.variables.external.form)
+* [Subiendo archivos](http://php.net/manual/en/features.file-upload.post-method.php)
+* Funciones de manipulación de headers:
+  * [header](http://php.net/manual/en/function.header.php)
+  * [headers_list](http://php.net/manual/en/function.headers-list.php)
+  * [headers_sent](http://php.net/manual/en/function.headers-sent.php)
+  * [header_remove](http://php.net/manual/en/function.header-remove.php)
+* [Autenticación HTTP](http://php.net/manual/en/features.http-auth.php)
